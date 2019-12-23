@@ -1,21 +1,21 @@
 package com.leetcode.practice.search;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class SubSets {
     List<List<Integer>> res =   new ArrayList<>();
     public static void main(String[] args) {
-        int[] nums  =   {1,2,3};
+        Integer[] nums  =   {5,3,5,7,11,2};//{5,2,3,2,3,3};
         SubSets subSets =   new SubSets();
-        List<List<Integer>> test    =   subSets.subsets(nums);
+        List<List<Integer>> test    =   subSets.subsets(Arrays.asList(nums));
         for(List arr : test){
             System.out.println(arr.toString());
         }
     }
 
-    public List<List<Integer>> subsets(int[] nums) {
-
+    public List<List<Integer>> subsets(List<Integer> val) {
+        Integer[] nums = new Integer[val.size()];
+        nums = val.toArray(nums);
         if(nums.length != 0){
             DFS(nums,new ArrayList<Integer>(),0);
         }
@@ -23,8 +23,8 @@ public class SubSets {
         return res;
     }
 
-    private void DFS(int[] nums, ArrayList<Integer> tmpList, int start) {
-        if (nums.length >= tmpList.size() && tmpList.size() > 0) {
+    private void DFS(Integer[] nums, ArrayList<Integer> tmpList, int start) {
+        if (nums.length >= tmpList.size() && tmpList.size() > 0 && gcd(tmpList.get(0), tmpList.get(tmpList.size()-1)) > 1) {
             res.add(new ArrayList<>(tmpList));
         }
 
@@ -34,5 +34,20 @@ public class SubSets {
                 tmpList.remove(tmpList.size()-1);
 
             }
+    }
+
+    public static int gcd(int a, int b)
+    {
+        if (a == 0)
+            return b;
+        if (b == 0)
+            return a;
+
+        if (a == b)
+            return a;
+
+        if (a > b)
+            return gcd(a-b, b);
+        return gcd(a, b-a);
     }
 }
