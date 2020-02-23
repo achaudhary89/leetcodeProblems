@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95a153b0-e793-4a67-a60f-6263dff1dd2a" name="Default Changelist" comment="" />
+    <list default="true" id="95a153b0-e793-4a67-a60f-6263dff1dd2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multithreading/OddEvenPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/josephus/JosephusSurvival.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/josephus/JosephusSurvival.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +34,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1RpWzBlUbGh5R8oVaeq8QUtWR7l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -44,13 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.fav.LongestPalindrome" />
+  <component name="RunManager" selected="Application.SwapNodesInPairs">
+    <configuration name="MultiThreadedFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreading.udemy.example.join.MultiThreadedFactorial" />
       <module name="CodingExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.practice.fav.*" />
+          <option name="PATTERN" value="com.multithreading.udemy.example.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.fav.MergeIntervals" />
+    <configuration name="SwapNodesInPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.linkedList.SwapNodesInPairs" />
       <module name="CodingExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.practice.fav.*" />
+          <option name="PATTERN" value="com.leetcode.practice.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.fav.PairSwap" />
+    <configuration name="SynchronizationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreading.SynchronizationTest" />
       <module name="CodingExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.practice.fav.*" />
+          <option name="PATTERN" value="com.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRoatatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.fav.SearchRoatatedSortedArray" />
+    <configuration name="ThreadWaitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreading.ThreadWaitExample" />
       <module name="CodingExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.practice.fav.*" />
+          <option name="PATTERN" value="com.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.fav.SearchSortedArray" />
+    <configuration name="TopKElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.practice.TopKElements" />
       <module name="CodingExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.practice.fav.*" />
+          <option name="PATTERN" value="com.leetcode.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.SearchSortedArray" />
-        <item itemvalue="Application.SearchRoatatedSortedArray" />
-        <item itemvalue="Application.PairSwap" />
+        <item itemvalue="Application.SwapNodesInPairs" />
+        <item itemvalue="Application.MultiThreadedFactorial" />
+        <item itemvalue="Application.SynchronizationTest" />
+        <item itemvalue="Application.ThreadWaitExample" />
+        <item itemvalue="Application.TopKElements" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +146,19 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -146,7 +172,52 @@
           <line>21</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/Test.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/Test.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/amazon/RottenOranges.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/amazon/RottenOranges.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/amazon/RottenOranges.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/practice/slidingWindow/LongestSubString.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/graph/CycleDetection.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/josephus/JosephusSurvival.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodingExercise$LongestSubString.ic" NAME="LongestSubString Coverage Results" MODIFIED="1577211814277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.practice.slidingWindow.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -2,10 +2,10 @@ package com.josephus;
 
 public class JosephusSurvival {
     public static void main(String[] args) {
-        int n = 14;
+        int n = 5;
         int k = 2;
 
-        System.out.println("Chosen place is  "+josephus(5, 2));
+        System.out.println("Chosen place is  "+josephus(n, k));
 
     }
 
